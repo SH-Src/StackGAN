@@ -1,0 +1,15 @@
+name: stack-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - tensorflow-gpu=1.13
+  - pip:
+    - progressbar
+    - keras
+    - Pillow
+    - matplotlib
+    - pandas
+
